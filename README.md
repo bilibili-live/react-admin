@@ -32,3 +32,12 @@ module.exports = (config, env)=> {
 }
 
 ```
+
+引入 `redux`
+
+```console
+
+cnpm i --save redux@3.7.2 react-redux redux-thunk
+cnpm i -D redux-devtools-extension
+
+```
