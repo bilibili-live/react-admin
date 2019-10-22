@@ -43,3 +43,24 @@ cnpm i --save redux@3.7.2 react-redux redux-thunk
 cnpm i -D redux-devtools-extension
 
 ```
+
+路由跳转功能
+
+```jsx
+
+export default class extends React.Component {
+
+  dev = ()=> {
+    this.props.history.replace('/login')
+  }
+
+  render() {
+    return (
+      <button onClick={ this.dev } >click</button>
+    )
+  }
+}
+
+```
+
+现在创建一个后端文件夹: `server`, 采用前后端分离的方式来构建

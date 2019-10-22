@@ -15,7 +15,6 @@ import Login from './containers/login/login';
 import Register from './containers/register/register'
 import Main from './containers/main/main'
 // dev
-import Dev from './containers/dev/px'
 
 ReactDOM.render((
   <Provider store={ store }>
@@ -23,7 +22,6 @@ ReactDOM.render((
       <Switch>
         <Route path="/login" component={ Login }></Route>
         <Route path="/register" component={ Register }></Route>
-        <Route path="/dev" component={ Dev }></Route>
         <Route component={ Main }></Route>
       </Switch>
     </HashRouter>
